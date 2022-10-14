@@ -344,11 +344,37 @@ body, html {
   background-position-x: center !important;
 }
 
-/* line 32, ../sass/partials/_modules.scss */
+/* line 31, ../sass/partials/_modules.scss */
+.navbar-logo {
+  height: 40px;
+}
+
+/* line 36, ../sass/partials/_modules.scss */
 .text-blue {
   color: #00133e !important;
 }
-/* line 35, ../sass/partials/_modules.scss */
+/* line 39, ../sass/partials/_modules.scss */
 .text-shadow {
   text-shadow: 1px 1px 3px #333;
+}
+
+/* line 43, ../sass/partials/_modules.scss */
+header {
+  z-index: 10;
+}
+
+/* line 46, ../sass/partials/_modules.scss */
+textarea {
+  resize: none;
+}
+
+@media all and (max-width: 767px) {
+  /* line 51, ../sass/partials/_modules.scss */
+  .navbar-nav {
+    backdrop-filter: blur(5px);
+    background-color: #fff;
+    border: 1px solid #999;
+    opacity: 0.9;
+    padding: 10px;
+  }
 }
