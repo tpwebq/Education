@@ -1,16 +1,35 @@
 $prefix: "../";
 $color__blue: #00133e;
 $footer-height: 33px;
+$img__basket: $prefix+"img/basket/basket-s1.jpg";
 $img__comingsoon: $prefix+"img/comingsoon.jpg";
+$img__contact:
+    $prefix+"img/contact/contact-s1.jpg",
+    $prefix+"img/contact/contact-s2.jpg";
+$img__courses: $prefix+"img/courses/courses-s1.jpg";
 $img__error: $prefix+"img/error.jpg";
+$img__index: $prefix+"img/index/index-s1.jpg";
+$img__index--v: $prefix+"img/index/index-s1v.jpg";
 $img__privacy: $prefix+"img/privacy.jpg";
 $img__aoa:
+    $img__basket,
     $img__comingsoon,
+    $img__contact,
+    $img__courses,
     $img__error,
+    $img__index,
     $img__privacy;
+$img__aoa--v:
+    $img__index--v;
 $img__classes:
+    "basket",
     "comingsoon",
+    "contact",
+    "courses",
     "error",
+    "index",
     "privacy";
+$img__classes--v:
+    "index";
 $logo__height: 40px;
 $text__shadow: 1px 1px 3px #333;
