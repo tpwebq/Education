@@ -1,4 +1,21 @@
 @include aoa-bg-series($img__classes,$img__aoa,0,"center","cover","scroll");
+@media all and (max-width:991px), all and (orientation: portrait){
+    @include aoa-bg-series($img__classes--v,$img__aoa--v,0,"center","cover","scroll");
+    .contact{
+        &-s1{
+            background-position-x: right!important;
+        }
+    }
+    .index{
+        &-s1{
+            *{
+                text-align: center!important;
+            }
+            align-items: end!important;
+        }
+    }
+}
+
 
 .bg{
     &-blue{
@@ -20,6 +37,11 @@
 .error{
     &-s1{
         background-position-x: 35%!important;
+    }
+}
+.index{
+    &-s1{
+        background-position-x: right!important;
     }
 }
 .privacy{
@@ -50,8 +72,8 @@ textarea{
     .navbar{
         &-nav{
             backdrop-filter: blur(5px); 
-            background-color: #fff;
-            border: 1px solid #999;
+            background-color: #0dcaf0;
+            border: 1px solid darken(#0dcaf0,20%);
             opacity: 0.9;
             padding: 10px;
         }
